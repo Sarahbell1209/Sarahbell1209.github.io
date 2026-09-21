@@ -1,45 +1,319 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jingxuan Wang | Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Jingxuan Wang — full-stack software engineer building data-driven products and reliable AI systems.">
+<meta name="theme-color" content="#faf8f5">
+<title>Jingxuan Wang | Software Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/site.js?v=20260921-2" defer>
+</script>
 </head>
-
 <body>
-
-  <h1>Hi, I'm Jingxuan Wang</h1>
-
-  <p>Frontend Software Engineer | AI Applications</p>
-
-  <h2>Featured Projects</h2>
-
-  <h3>Clinical AI Assistant</h3>
-  <p>
-    AI-assisted clinical documentation system for generating and reviewing SOAP notes.
-  </p>
-
-  <h3>EOB Reconciliation System</h3>
-  <p>
-    Insurance reconciliation system for identifying discrepancies between insurance responses and internal billing records.
-  </p>
-
-  <h3>Creator Distiller</h3>
-  <p>
-    Multi-stage AI workflow for extracting and organizing knowledge from multiple sources.
-  </p>
-
-  <h2>Tech Stack</h2>
-
-  <p>
-    React · TypeScript · JavaScript · Python · Django · REST API · Git
-  </p>
-
-  <h2>Contact</h2>
-
-  <p>
-    GitHub | LinkedIn | Email
-  </p>
-
+<a class="skip-link" href="#about">Skip to content</a>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true">
+</div>
+<header class="top-band">
+<div class="band-inner">
+<span class="band-mark">JW</span>
+<p>front end · back end · data &amp; AI · cloud delivery</p>
+<span class="availability">
+<i>
+</i> Open to opportunities</span>
+</div>
+</header>
+<div class="page-shell">
+<aside class="sidebar">
+<div class="portrait photo-space">
+<img class="profile-photo" src="assets/images/profile-photo.jpg" alt="Portrait of Jingxuan Wang">
+<div class="photo-placeholder" hidden><span>Photo</span><small>profile-photo.jpg</small></div>
+</div>
+<div class="identity">
+<h1>Jingxuan Wang</h1>
+<p class="role">Full-Stack Software Engineer</p>
+<p class="affiliation">M.S. Software Engineering<br>University of Texas at Arlington</p>
+</div>
+<nav aria-label="Primary navigation">
+<a class="active" href="#about">About</a>
+<a href="#capabilities">Skills</a>
+<a href="#now">Now</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#resume">Résumé</a>
+<div class="nav-group-label">Beyond engineering</div>
+<a data-outside-target="thoughts" href="#thoughts">Spoken Sharing</a>
+<a data-outside-target="music" href="#music">Music</a>
+<a data-outside-target="model-coser" href="#model-coser">Model / Coser</a>
+</nav>
+<div class="sidebar-controls">
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+<span aria-hidden="true">◐</span>
+<span id="themeLabel">Dark mode</span>
+</button>
+<button class="lang-toggle" id="langToggle" type="button" aria-label="切换至中文">
+<span aria-hidden="true">文</span>
+<span id="langLabel">中文</span>
+</button>
+</div>
+<div class="sidebar-contact">
+<a class="contact-link" href="mailto:wjx1209457769@gmail.com"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="m3.5 6 8.5 6.5L20.5 6"></path></svg><span data-contact-email>wjx1209457769@gmail.com</span></a>
+<a class="contact-link" href="https://github.com/Sarahbell1209" target="_blank" rel="noopener noreferrer"><svg class="contact-icon github-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.4a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.9.1-.7.4-1.1.7-1.4-2.3-.3-4.6-1.1-4.6-5A3.9 3.9 0 0 1 6.8 8.6a3.6 3.6 0 0 1 .1-2.8s.8-.3 2.7 1a9.3 9.3 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1a3.6 3.6 0 0 1 .1 2.8 3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 1.9V21c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.4Z"></path></svg><span>GitHub</span></a>
+<a class="contact-link" href="https://www.linkedin.com/in/jingxuanwang2002" target="_blank" rel="noopener noreferrer"><svg class="contact-icon linkedin-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="1"></rect><circle cx="7.2" cy="8" r="1.2"></circle><path d="M6 10.5v6.8M10.2 17.3v-6.8m0 3c.7-2.3 5.1-2.5 5.1 1v2.8m0-3.1v-3.7"></path></svg><span>LinkedIn</span></a>
+<span class="contact-location">Arlington, Texas</span>
+</div>
+</aside>
+<main>
+<section class="section fade-in" id="about">
+<div class="section-label">About</div>
+<p class="intro">I build software from <em>data to interface</em>, with projects across AI/ML, full-stack applications, and edge inference.</p>
+<p>I am pursuing a Master of Software Engineering at the University of Texas at Arlington. Relevant coursework includes Algorithms and Data Structures, Artificial Intelligence, Data Mining, and Software Design.</p>
+<p>My work includes multilingual clinical AI, multimodal video analysis, pedestrian flow counting, offline wildlife detection, and intelligent clothing image classification and retrieval.</p>
+<div class="interest-tags" aria-label="Areas of focus">
+<span>Full-stack products</span>
+<span>Applied AI</span>
+<span>Data pipelines</span>
+<span>Computer vision</span>
+<span>Cloud systems</span>
+</div>
+</section>
+<section class="section" id="capabilities">
+<div class="section-label">Skills</div>
+<div class="skill-groups">
+<article class="skill-group fade-in"><span>AI / ML</span><p>PyTorch, vision-language models, YOLOv8, OpenCV, Whisper, object detection, image classification, edge inference</p></article>
+<article class="skill-group fade-in"><span>Programming</span><p>Python, Java, TypeScript, SQL</p></article>
+<article class="skill-group fade-in"><span>Tools</span><p>Raspberry Pi, Docker, Git, AWS, Flask, Django REST, MySQL, React, Vercel</p></article>
+<article class="skill-group fade-in"><span>Languages</span><p>Chinese (Native), English (Professional Working Proficiency)</p></article>
+</div>
+</section>
+<section class="section" id="now">
+<div class="section-label">Now</div>
+<div class="now-panel fade-in">
+<div class="now-head">
+<span>
+<i>
+</i> September 2026</span>
+<small>What I’m focused on</small>
+</div>
+<h2>Dependable, data-driven products with clean interfaces and verifiable outputs.</h2>
+<div class="now-grid">
+<div>
+<b>01</b>
+<p>Multilingual clinical workflow engineering</p>
+</div>
+<div>
+<b>02</b>
+<p>Evidence validation for multimodal analysis</p>
+</div>
+<div>
+<b>03</b>
+<p>Cloud deployment and system integration</p>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="projects">
+<div class="section-label">Selected projects</div>
+<article class="project fade-in" id="project-clinical">
+<div class="project-thumb clinical-thumb" aria-hidden="true">
+<div class="mini-window">
+<div class="mini-top">
+<i>
+</i>
+<i>
+</i>
+<i>
+</i>
+</div>
+<div class="mini-body">
+<div class="mini-wave">
+<b>
+</b>
+<b>
+</b>
+<b>
+</b>
+<b>
+</b>
+<b>
+</b>
+</div>
+<div class="mini-note">
+<span>S</span>
+<span>O</span>
+<span>A</span>
+<span>P</span>
+</div>
+</div>
+</div>
+</div>
+<div class="project-body">
+<div class="project-type">May 2026 – Present</div>
+<h2>Clinical AI Assistant</h2>
+<ul class="project-points"><li>Developed a multilingual pediatric dental assistant that converts clinician-patient conversations into Gemini-generated SOAP drafts for clinician review and approved-note write-back to Open Dental</li><li>Integrated switchable Google Cloud Speech-to-Text, Deepgram, and Whisper engines with speaker diarization to support English, Chinese, Spanish, and mixed-language transcription</li><li>Connected patient histories, treatment records, and transcripts to citation-grounded clinical Q&amp;A, supporting traceable responses grounded in patient source information</li></ul>
+<div class="project-layers">
+<span>
+<b>UI</b> React workflow &amp; state</span>
+<span>
+<b>API</b> Django REST orchestration</span>
+<span>
+<b>Data</b> Speech &amp; structured notes</span>
+</div>
+<div class="project-footer">
+<span>React · TypeScript · Django · Gemini · AWS</span>
+<span class="status">Active development</span>
+</div>
+</div>
+</article>
+<article class="project fade-in" id="project-creator">
+<div class="project-thumb pipeline-thumb" aria-hidden="true">
+<div class="pipe-node">
+<strong>125</strong>
+<small>records</small>
+</div>
+<i>
+</i>
+<div class="pipe-node middle">ASR</div>
+<i>
+</i>
+<div class="pipe-node valid">✓</div>
+<span>evidence validated</span>
+</div>
+<div class="project-body">
+<div class="project-type">Python · Whisper · vision-language models · local inference · Jun 2026 – Present</div>
+<h2>Creator Distiller</h2>
+<ul class="project-points"><li>Developed a staged multimodal pipeline that collected, deduplicated, sampled, transcribed, and analyzed 125 public videos using Whisper, vision-language models, and local inference</li><li>Achieved approximately 0.26x real-time factor for local transcription, enabling audio processing substantially faster than its original duration</li><li>Implemented structured schemas, stage checkpoints, and evidence-ID validation to keep synthesized findings traceable to source material</li></ul>
+<div class="metrics">
+<span>
+<strong>125</strong> video records</span>
+<span>
+<strong>0.26×</strong> transcription RTF</span>
+</div>
+<div class="project-footer">
+<span>Python · Whisper · vision-language models · local inference</span>
+<span class="status">Active development</span>
+</div>
+</div>
+</article>
+<article class="project fade-in" id="project-wildlife">
+<div class="project-thumb vision-thumb" aria-hidden="true">
+<div class="viewfinder">
+<span class="target">wildlife 0.86</span>
+<i>
+</i>
+</div>
+<div class="vision-data">
+<span>10 FPS</span>
+<span>OFFLINE</span>
+</div>
+</div>
+<div class="project-body">
+<div class="project-type">Python · YOLOv8 · OpenCV · Raspberry Pi · Dec 2024 – Mar 2025</div>
+<h2>Wildlife Recognition System</h2>
+<ul class="project-points"><li>Deployed an offline wildlife detector on Raspberry Pi that achieved approximately 10 FPS and over 80% detection accuracy on resource-constrained hardware</li><li>Implemented local filtering, event logging, and storage to support reviewable detections without continuous cloud connectivity</li></ul>
+<div class="metrics">
+<span>
+<strong>10</strong> FPS</span>
+<span>
+<strong>80%+</strong> detection accuracy</span>
+</div>
+<div class="project-footer">
+<span>Python · YOLOv8 · OpenCV · Raspberry Pi</span>
+<span class="status complete">Completed</span>
+</div>
+</div>
+</article>
+<article class="project fade-in" id="project-pedestrian">
+<div class="project-thumb flow-thumb" aria-hidden="true"><div class="flow-frame"><span class="flow-person p1"></span><span class="flow-person p2"></span><span class="flow-person p3"></span><i class="count-line"></i><b>COUNT 03</b></div><div class="vision-data"><span>EDGE / LOCAL</span><span>IMAGE + VIDEO</span></div></div>
+<div class="project-body"><div class="project-type">Python · YOLOv8 · OpenCV · Raspberry Pi · Mar 2026 – Apr 2026</div><h2>Pedestrian Flow Counting System</h2><ul class="project-points"><li>Developed a Raspberry Pi edge-vision pipeline with YOLOv8 and OpenCV for pedestrian detection and counting from image and video inputs with local on-device analysis</li></ul><div class="project-footer"><span>Python · YOLOv8 · OpenCV · Raspberry Pi</span><span class="status complete">Completed</span></div></div>
+</article>
+<article class="project fade-in" id="project-clothing">
+<div class="project-thumb clothing-thumb" aria-hidden="true"><div class="clothing-grid"><span>01</span><span>02</span><span>03</span><span>04</span></div><div class="search-vector"><i></i><i></i><i></i><i></i><b>vector similarity</b></div></div>
+<div class="project-body"><div class="project-type">Python · PyTorch · Flask · Mar 2026 – May 2026</div><h2>Intelligent Clothing Image Classification and Retrieval System</h2><ul class="project-points"><li>Trained a ResNet-50 model on a cleaned 4,000-image subset spanning 10 categories and achieved 77.25% validation accuracy</li><li>Implemented vector similarity search and batch image processing through Flask REST APIs backed by MySQL</li></ul><div class="metrics"><span><strong>4,000</strong> images</span><span><strong>77.25%</strong> validation accuracy</span></div><div class="project-footer"><span>Python · PyTorch · Flask · MySQL</span><span class="status complete">Completed</span></div></div>
+</article>
+<article class="project fade-in" id="project-eob">
+<div class="project-thumb recon-thumb" aria-hidden="true">
+<div class="recon-header"><span>INSURANCE RESPONSE</span><span>INTERNAL RECORD</span></div>
+<div class="recon-row match"><i>✓</i><b></b><b></b></div>
+<div class="recon-row mismatch"><i>!</i><b></b><b></b><small>discrepancy</small></div>
+<div class="recon-row match"><i>✓</i><b></b><b></b></div>
+<div class="recon-summary"><span>2 matched</span><span>1 review needed</span></div>
+</div>
+<div class="project-body">
+<div class="project-type">Data reconciliation workflow</div>
+<h2>EOB Reconciliation System</h2>
+<p>A reconciliation workflow for comparing insurance responses with internal billing records and surfacing discrepancies that require review.</p>
+<div class="project-layers"><span><b>Input</b> Insurance responses</span><span><b>Compare</b> Billing records</span><span><b>Output</b> Review queue</span></div>
+<div class="project-footer"><span>Data validation · Discrepancy detection · Billing workflows</span><span class="status complete">Project overview</span></div>
+</div>
+</article>
+</section>
+<section class="section" id="education">
+<div class="section-label">Education</div>
+<div class="timeline">
+<article class="timeline-item fade-in">
+<time>Aug 2025 – Dec 2026</time>
+<div>
+<h2>Master of Software Engineering</h2>
+<p>University of Texas at Arlington, Arlington, TX</p>
+<span>Relevant Coursework: Algorithms and Data Structures, Artificial Intelligence, Data Mining, Software Design</span>
+</div>
+</article>
+<article class="timeline-item fade-in">
+<time>Sep 2021 – Jun 2025</time>
+<div>
+<h2>Bachelor of Engineering in Network Engineering</h2>
+<p>Beijing Forestry University, Beijing, China</p>
+</div>
+</article>
+</div>
+</section>
+<section class="section" id="resume">
+<div class="section-label">Curriculum Vitae</div>
+<a class="resume-card fade-in" href="assets/documents/Jingxuan_Wang_Resume.pdf" target="_blank" rel="noopener">
+<span class="resume-icon">PDF</span>
+<span>
+<strong>Jingxuan Wang — Résumé</strong>
+<small>Education, experience, projects, and technical skills</small>
+</span>
+<i>View full résumé ↗</i>
+</a>
+</section>
+<div class="outside-view" id="outsideView" hidden>
+<button class="view-back" id="viewBack" type="button">← Back to portfolio</button>
+<section class="section fade-in visible" id="outside-work">
+<div class="section-label">Outside of Work</div>
+<p class="intro outside-hero">Ideas I’m thinking through <em>out loud</em>, and a life shaped by music.</p>
+<p class="outside-intro">For now, this space brings together spoken sharing and music. I’ll add selected pieces gradually instead of relying on a social feed.</p>
+<div class="outside-note"><b>A note</b><p>Most current videos live on Douyin, which may not be reliably accessible outside China. Selected work will be republished here in a more accessible format.</p></div>
+</section>
+<section class="section outside-detail" id="thoughts">
+<div class="section-label">01 / Thinking aloud</div>
+<article class="outside-card fade-in visible" id="thought-card"><div class="outside-visual thought-visual" aria-hidden="true"><span class="quote-mark">“</span><i></i><i></i><i></i><b>THOUGHTS / 口播</b></div><div class="outside-copy"><span class="outside-type">Spoken sharing</span><h2>Learning by explaining and reflecting.</h2><p>Short-form videos for organizing what I learn, sharing books, and putting personal reflections into words.</p><div class="sharing-tracks"><span><b>Reflections</b><small>Now sharing</small></span><span><b>Knowledge</b><small>Planned</small></span><span><b>Books</b><small>Planned</small></span></div><div class="media-slot"><i>▶</i><span>Selected reflection video</span><small>Accessible version coming soon</small></div></div></article>
+</section>
+<section class="section outside-detail" id="music">
+<div class="section-label">02 / Music</div>
+<article class="outside-card fade-in visible" id="music-card"><div class="outside-visual music-visual" aria-hidden="true"><span>♪</span><div class="strings"><i></i><i></i><i></i><i></i><i></i><i></i></div><b>MUSIC / 弹唱</b></div><div class="outside-copy"><span class="outside-type">Music</span><h2>Collecting sounds, one instrument at a time.</h2><p>I record guitar-and-vocal covers, and also enjoy guzheng, piano, and violin. I like collecting and trying different instruments—each one offers a new way to listen and express.</p><div class="instrument-list"><span>Guitar</span><span>Guzheng</span><span>Piano</span><span>Violin</span><span>More to explore +</span></div><div class="media-slot"><i>▶</i><span>Selected acoustic video</span><small>Accessible version coming soon</small></div></div></article>
+</section>
+<section class="section outside-detail" id="model-coser">
+<div class="section-label">03 / Model &amp; Coser</div>
+<div class="coser-intro"><h2>Character, styling, and visual storytelling.</h2><p>A place for selected modeling and cosplay work—exploring how posture, styling, setting, and character can tell a story in a single frame.</p></div>
+<div class="photo-gallery fade-in visible">
+<figure class="gallery-slot"><div class="gallery-placeholder"><span>01</span><small>Add portrait photo</small></div><figcaption>Portrait / 人像</figcaption></figure>
+<figure class="gallery-slot featured"><div class="gallery-placeholder"><span>02</span><small>Add cosplay photo</small></div><figcaption>Character / 角色</figcaption></figure>
+<figure class="gallery-slot"><div class="gallery-placeholder"><span>03</span><small>Add styling photo</small></div><figcaption>Styling / 造型</figcaption></figure>
+</div>
+<p class="gallery-note">Selected photos will be added here. This gallery stays separate from professional engineering work and only appears after opening “Outside of Work.”</p>
+</section>
+</div>
+<footer>
+<span>© <span id="year">2026</span> Jingxuan Wang</span>
+<span>Built for GitHub Pages</span>
+</footer>
+</main>
+</div>
 </body>
 </html>
